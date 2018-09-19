@@ -4,6 +4,7 @@
 This project uses PCA machine learning from Azure ML to predict anomalies on a weather station system using Arduino.
 
 ## Testing
+First copy all the required libraries to My Documents / Arduino / libraries.
 
 In order to test this project
 First upload the ArduinoCodes/postThingWorxV2/postThingWorxV2.ino to the Arduino MKR1000, edit the code header to match your SSID, Thingworx server, thing name, service name, api key, etc and then monitor through Thingworx Platform that the values change depending on the DHT11 sensor state.
