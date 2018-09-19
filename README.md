@@ -7,7 +7,7 @@ This project uses PCA machine learning from Azure ML to predict anomalies on a w
 First copy all the required libraries to My Documents / Arduino / libraries.
 
 In order to test this project
-First upload the ArduinoCodes/postThingWorxV2/postThingWorxV2.ino to the Arduino MKR1000, edit the code header to match your SSID, Thingworx server, thing name, service name, api key, etc and then monitor through Thingworx Platform that the values change depending on the DHT11 sensor state.
+First upload the ArduinoCodes/postThingWorxV2/postThingWorxV2.ino to the Arduino MKR1000, edit the code header to match your SSID, Thingworx server, thing name, service name, api key, etc and then monitor through Thingworx Platform that the values change depending on the DHT11 sensor state. Use serial monitor to check the correct SSID association and POST to Thingworx
 
 Note: The DHT11 is directly connected to pin D2 in MKR1000 in the device.
 
